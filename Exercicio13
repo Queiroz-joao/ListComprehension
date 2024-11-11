@@ -1,0 +1,7 @@
+# Listas de exemplo
+chaves = ["nome", "idade", "cidade"]
+valores = ["João", 22, "São Paulo"]
+
+# Criando o dicionário
+dicionario = dict(zip(chaves, valores))
+print(dicionario)
