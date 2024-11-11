@@ -1,0 +1,6 @@
+# Exemplo de lista com vários nomes
+lista_de_nomes = ["Ana", "Bruno", "Carla", "Daniel", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Julia", "Kleber", "Larissa"]
+
+# Selecionando os primeiros 10 nomes
+primeiros_10_nomes = lista_de_nomes[:10]
+print(primeiros_10_nomes)
