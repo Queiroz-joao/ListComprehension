@@ -1,0 +1,10 @@
+# Exemplo de lista com vários nomes
+lista_de_nomes = ["Ana", "Bruno", "Carla", "Daniel", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Julia", "Kleber", "Larissa"]
+
+# Função para remover as vogais de um nome
+def remover_vogais(nome):
+    return ''.join([letra for letra in nome if letra.lower() not in 'aeiou'])
+
+# Selecionando os primeiros 10 nomes e removendo as vogais
+primeiros_10_nomes_sem_vogais = [remover_vogais(nome) for nome in lista_de_nomes[:10]]
+print(primeiros_10_nomes_sem_vogais)
