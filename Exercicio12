@@ -1,0 +1,6 @@
+# Exemplo de lista de sub-listas
+listas = [["Ana", "Bruno"], ["Carla", "Daniel"], ["Eduardo", "Fernanda"]]
+
+# Concatenando os elementos de todas as sub-listas em uma única lista
+lista_unificada = [item for sublista in listas for item in sublista]
+print(lista_unificada)
