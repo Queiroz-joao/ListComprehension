@@ -1,0 +1,6 @@
+# Exemplo de lista com vários nomes
+lista_de_nomes = ["ana", "bruno", "carla", "daniel", "eduardo", "fernanda", "gabriel", "helena", "igor", "julia", "kleber", "larissa"]
+
+# Selecionando os primeiros 10 nomes e capitalizando a primeira letra de cada nome
+primeiros_10_nomes_capitalizados = [nome.capitalize() for nome in lista_de_nomes[:10]]
+print(primeiros_10_nomes_capitalizados)
