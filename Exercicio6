@@ -1,0 +1,3 @@
+string = "Este é um exemplo de frase com palavras variadas"
+palavras_maiores_que_3 = [palavra for palavra in string.split() if len(palavra) > 3]
+print(palavras_maiores_que_3)
