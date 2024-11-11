@@ -1,0 +1,3 @@
+string = "Exemplo de uma frase com várias palavras"
+comprimentos = [len(palavra) for palavra in string.split()]
+print(comprimentos)
