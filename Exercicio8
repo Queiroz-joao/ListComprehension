@@ -1,0 +1,9 @@
+from datetime import datetime, timedelta
+
+# Definindo o ano bissexto e o primeiro dia de janeiro
+ano_bissexto = 2024
+data_inicial = datetime(ano_bissexto, 1, 1)
+
+# Criando a lista de datas para todos os dias de janeiro
+datas_janeiro = [(data_inicial + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(31)]
+print(datas_janeiro)
